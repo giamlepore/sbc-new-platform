@@ -41,7 +41,7 @@ export function CoursePlatform() {
   const [currentModule, setCurrentModule] = useState(0)
   const [currentLesson, setCurrentLesson] = useState(0)
   const [completedLessons, setCompletedLessons] = useState<{[key: number]: number[]}>({})
-  const [isCompleted, setIsCompleted] = useState(false)
+  // const [isCompleted, setIsCompleted] = useState(false)
   const [showConfetti, setShowConfetti] = useState(false)
   const [activeTab, setActiveTab] = useState('Home')
   const [dailyStreak, setDailyStreak] = useState(1)
@@ -69,7 +69,7 @@ export function CoursePlatform() {
   }, [showConfetti, currentLesson, currentModule])
 
   const handleComplete = () => {
-    setIsCompleted(true)
+    // setIsCompleted(true)
     setCompletedLessons(prev => ({
       ...prev,
       [currentModule]: [...(prev[currentModule] || []), currentLesson]
