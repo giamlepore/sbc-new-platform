@@ -12,9 +12,9 @@ import { useTheme } from "next-themes"
 
 const modules = [
   {
-    title: 'Getting Started with React',
+    title: 'Como criar um produto do zero, sem sorte?',
     lessons: [
-      { title: 'Introduction to React', video: 'https://player.vimeo.com/video/336265026' },
+      { title: 'Introduction to React', video: 'https://player.vimeo.com/video/1002083210' },
       { title: 'Setting up Your Development Environment', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4' },
     ],
     tasks: [
@@ -124,9 +124,9 @@ export function CoursePlatform() {
       {/* Sidebar */}
       <div className={`fixed inset-y-0 left-0 z-50 w-64 bg-background border-r transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-200 ease-in-out md:relative md:translate-x-0`}>
         <div className="p-4">
-          <h2 className="text-2xl font-bold text-primary">EduStream</h2>
+          <h2 className="text-2xl font-bold text-primary text-white">SBC</h2>
         </div>
-        <nav className="mt-4">
+        <nav className="mt-4 text-gray-400">
           {['Home', 'Courses', 'Achievements', 'Tasks', 'Settings'].map((item, index) => (
             <Button 
               key={item} 
@@ -139,7 +139,7 @@ export function CoursePlatform() {
             >
               {index === 0 && <Home className="mr-2 h-4 w-4" />}
               {index === 1 && <BookOpen className="mr-2 h-4 w-4" />}
-              {index === 2 && <Award className="mr-2 h-4 w-4 text-primary" />}
+              {index === 2 && <Award className="mr-2 h-4 w-4" />}
               {index === 3 && <CheckSquare className="mr-2 h-4 w-4" />}
               {index === 4 && <Settings className="mr-2 h-4 w-4" />}
               {item}
@@ -149,7 +149,7 @@ export function CoursePlatform() {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 overflow-auto">
+      <div className="flex-1 overflow-auto text-gray-400">
         {/* Header */}
         <header className="bg-background border-b">
           <div className="flex items-center justify-between px-4 py-4">
@@ -175,7 +175,7 @@ export function CoursePlatform() {
         </header>
 
         {/* Course Content */}
-        <main className="p-4 max-w-7xl mx-auto">
+        <main className="p-4 max-w-7xl mx-auto ">
           {activeTab === 'Achievements' ? (
             <div className="bg-card p-6 rounded-lg shadow-sm">
               <h2 className="text-2xl font-bold mb-4">Your Achievements</h2>
