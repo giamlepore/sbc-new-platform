@@ -118,15 +118,15 @@ export function CoursePlatform() {
   }
 
   return (
-    <div className="flex h-screen bg-background text-foreground">
+    <div className="flex h-screen bg-background text-foreground bg-white">
       {showConfetti && <Confetti />}
       
       {/* Sidebar */}
-      <div className={`fixed inset-y-0 left-0 z-50 w-64 bg-background border-r transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-200 ease-in-out md:relative md:translate-x-0`}>
+      <div className={`fixed inset-y-0 left-0 z-50 w-64 bg-background border-r transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-200 ease-in-out md:relative md:translate-x-0 bg-white md:bg-white`}>
         <div className="p-4">
-          <h2 className="text-2xl font-bold text-primary text-white">SBC</h2>
+          <h2 className="text-2xl font-bold text-primary text-black">SBC</h2>
         </div>
-        <nav className="mt-4 text-gray-400">
+        <nav className="mt-4 text-gray-700 bg-white md:bg-white">
           {['Home', 'Courses', 'Achievements', 'Tasks', 'Settings'].map((item, index) => (
             <Button 
               key={item} 
@@ -149,7 +149,7 @@ export function CoursePlatform() {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 overflow-auto text-gray-400">
+      <div className="flex-1 overflow-auto text-black">
         {/* Header */}
         <header className="bg-background border-b">
           <div className="flex items-center justify-between px-4 py-4">
