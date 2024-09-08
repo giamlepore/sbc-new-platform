@@ -367,7 +367,7 @@ export function CoursePlatform() {
               {/* Progress and Completion */}
               <div className="mb-6">
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-medium">Course Progress</span>
+                  <span className="text-sm font-medium">Progresso no Curso</span>
                   <span className="text-sm font-medium">{Math.round(progress)}%</span>
                 </div>
                 <Progress value={progress} className="w-full" />
@@ -379,7 +379,7 @@ export function CoursePlatform() {
                 disabled={completedLessons[currentModule]?.includes(currentLesson)}
                 className={`w-full ${completedLessons[currentModule]?.includes(currentLesson) ? 'bg-primary hover:bg-primary/90' : ''}`}
               >
-                {completedLessons[currentModule]?.includes(currentLesson) ? 'Completed!' : 'Mark as Completed'}
+                {completedLessons[currentModule]?.includes(currentLesson) ? 'Aula concluída! ✅' : 'Marque como Concluída 🔥'}
               </Button>
 
               {/* Modules and Lessons */}
