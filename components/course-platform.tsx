@@ -14,7 +14,7 @@ const modules = [
   {
     title: 'Como criar um produto do zero, sem sorte?',
     lessons: [
-      { title: 'Introduction to React', video: 'https://player.vimeo.com/video/1002083210' },
+      { title: 'Introduction to React', video: 'https://player.vimeo.com/video/1002083210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
       { title: 'Setting up Your Development Environment', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4' },
     ],
     tasks: [
@@ -126,7 +126,7 @@ export function CoursePlatform() {
         <div className="p-4">
           <h2 className="text-2xl font-bold text-primary text-black">SBC</h2>
         </div>
-        <nav className="mt-4 text-gray-700 bg-white md:bg-white">
+        <nav className="mt-4 text-gray-500 bg-white md:bg-white">
           {['Home', 'Courses', 'Achievements', 'Tasks', 'Settings'].map((item, index) => (
             <Button 
               key={item} 
