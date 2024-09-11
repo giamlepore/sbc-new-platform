@@ -14,141 +14,142 @@ const modules = [
   {
     title: 'Módulo 01 → Como sair do zero? Fundamentos.',
     lessons: [
-      { title: '#001 → O que gostaria de saber antes? Parte 01', video: 'https://player.vimeo.com/video/1002083210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
-      { title: '#002 → O que gostaria de saber antes? Parte 02', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4' },
-      { title: 'Como perceber problemas no dia a dia?', video: 'https://player.vimeo.com/video/1002083210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
-      { title: 'Por que literalmente escrever sobre nossa ideia?', video: 'https://player.vimeo.com/video/1002083210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
-      { title: 'Cadência vs. Volume', video: 'https://player.vimeo.com/video/1002083210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
-      { title: 'Não deixe para "rastrear" só depois', video: 'https://player.vimeo.com/video/1002083210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
+      { title: 'Aula #001 → O que gostaria de saber antes? Parte 01', video: 'https://player.vimeo.com/video/1008575104?badge=0&amp;autopause=0&amp;player_id=0&amp' },
+      { title: 'Aula #002 → O que gostaria de saber antes? Parte 02', video: 'https://player.vimeo.com/video/1008575201?badge=0&amp;autopause=0&amp;player_id=0&amp' },
+      { title: 'Extra: Ferramentas para começar', video: 'https://player.vimeo.com/video/1008577242?badge=0&amp;autopause=0&amp;player_id=0&amp' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
     ],
     tasks: [
-      { title: 'Install Node.js', completed: false },
-      { title: 'Create a new React project', completed: false },
+      { title: 'Escolha a ferramenta que você vai documentar seus aprendizados. (Coda, Notion, Trello, Asana são algumas possibilidades)', completed: false },
+      { title: 'Defina quais ferramentas você vai utilizar repetidamente, aprofunde nelas (Framer, v0.dev, ChatGPT, Google Analytics, Google Search Console, Google Tag Manager, Clarity são algumas delas.', completed: false },
+      { title: 'Reflita sobre "O que é um jogo pra você, e trabalho para os outros?"', completed: false },
     ]
   },
   {
     title: 'Módulo 02 → Evitando retrabalho com a Hierarquia de Necessidades ',
     lessons: [
-      { title: 'Components and Props', video: 'https://player.vimeo.com/video/336265026' },
-      { title: 'State and Lifecycle', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' },
-      { title: 'Handling Events', video: 'https://player.vimeo.com/video/336265026' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
     ],
     tasks: [
-      { title: 'Create a functional component', completed: false },
-      { title: 'Implement state in a class component', completed: false },
-      { title: 'Add event handlers to a component', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
     ]
   },
 
   {
     title: 'Módulo 03 → Qual o caso de uso ideal? Persona + Jobs to be done',
     lessons: [
-      { title: 'Components and Props', video: 'https://player.vimeo.com/video/336265026' },
-      { title: 'State and Lifecycle', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' },
-      { title: 'Handling Events', video: 'https://player.vimeo.com/video/336265026' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
     ],
     tasks: [
-      { title: 'Create a functional component', completed: false },
-      { title: 'Implement state in a class component', completed: false },
-      { title: 'Add event handlers to a component', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
     ]
   },
 
   {
     title: 'Módulo 04 → Organizando sua cabeça e colocando no papel: dimensões estratégicas',
     lessons: [
-      { title: 'Components and Props', video: 'https://player.vimeo.com/video/336265026' },
-      { title: 'State and Lifecycle', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' },
-      { title: 'Handling Events', video: 'https://player.vimeo.com/video/336265026' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
     ],
     tasks: [
-      { title: 'Create a functional component', completed: false },
-      { title: 'Implement state in a class component', completed: false },
-      { title: 'Add event handlers to a component', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
     ]
   },
 
   {
     title: 'Módulo 05 → Identificando as hipóteses mais arriscadas',
     lessons: [
-      { title: 'Components and Props', video: 'https://player.vimeo.com/video/336265026' },
-      { title: 'State and Lifecycle', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' },
-      { title: 'Handling Events', video: 'https://player.vimeo.com/video/336265026' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
     ],
     tasks: [
-      { title: 'Create a functional component', completed: false },
-      { title: 'Implement state in a class component', completed: false },
-      { title: 'Add event handlers to a component', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
     ]
   },
 
   {
     title: 'Módulo 06 → Qual método utilizar para cada tipo de hipótese?',
     lessons: [
-      { title: 'Components and Props', video: 'https://player.vimeo.com/video/336265026' },
-      { title: 'State and Lifecycle', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' },
-      { title: 'Handling Events', video: 'https://player.vimeo.com/video/336265026' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
     ],
     tasks: [
-      { title: 'Create a functional component', completed: false },
-      { title: 'Implement state in a class component', completed: false },
-      { title: 'Add event handlers to a component', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
     ]
   },
 
   {
     title: 'Módulo 07 → Crescendo um produto: Posicionamento',
     lessons: [
-      { title: 'Components and Props', video: 'https://player.vimeo.com/video/336265026' },
-      { title: 'State and Lifecycle', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' },
-      { title: 'Handling Events', video: 'https://player.vimeo.com/video/336265026' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
     ],
     tasks: [
-      { title: 'Create a functional component', completed: false },
-      { title: 'Implement state in a class component', completed: false },
-      { title: 'Add event handlers to a component', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
     ]
   },
 
   {
     title: 'Módulo 08 → Crescendo um produto: Go to market',
     lessons: [
-      { title: 'Components and Props', video: 'https://player.vimeo.com/video/336265026' },
-      { title: 'State and Lifecycle', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' },
-      { title: 'Handling Events', video: 'https://player.vimeo.com/video/336265026' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
     ],
     tasks: [
-      { title: 'Create a functional component', completed: false },
-      { title: 'Implement state in a class component', completed: false },
-      { title: 'Add event handlers to a component', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
     ]
   },
 
   {
     title: 'Módulo 09 → Estruturando experimentos',
     lessons: [
-      { title: 'Components and Props', video: 'https://player.vimeo.com/video/336265026' },
-      { title: 'State and Lifecycle', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' },
-      { title: 'Handling Events', video: 'https://player.vimeo.com/video/336265026' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
     ],
     tasks: [
-      { title: 'Create a functional component', completed: false },
-      { title: 'Implement state in a class component', completed: false },
-      { title: 'Add event handlers to a component', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
     ]
   },
 
   {
     title: 'Módulo 10 (Extra) → Como construir uma estratégia de curto e longo prazo?',
     lessons: [
-      { title: 'Components and Props', video: 'https://player.vimeo.com/video/336265026' },
-      { title: 'State and Lifecycle', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' },
-      { title: 'Handling Events', video: 'https://player.vimeo.com/video/336265026' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
+      { title: 'Em breve', video: '' },
     ],
     tasks: [
-      { title: 'Create a functional component', completed: false },
-      { title: 'Implement state in a class component', completed: false },
-      { title: 'Add event handlers to a component', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
+      { title: 'Em breve', completed: false },
     ]
   },
 ]
