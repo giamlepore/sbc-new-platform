@@ -14,9 +14,12 @@ const modules = [
   {
     title: 'Módulo 01 → Como sair do zero? Fundamentos.',
     lessons: [
-      { title: 'Introduction to React', video: 'https://player.vimeo.com/video/1002083210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
-      { title: 'Setting up Your Development Environment', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4' },
-      { title: 'Introduction to React', video: 'https://player.vimeo.com/video/1002083210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
+      { title: '#001 → O que gostaria de saber antes? Parte 01', video: 'https://player.vimeo.com/video/1002083210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
+      { title: '#002 → O que gostaria de saber antes? Parte 02', video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4' },
+      { title: 'Como perceber problemas no dia a dia?', video: 'https://player.vimeo.com/video/1002083210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
+      { title: 'Por que literalmente escrever sobre nossa ideia?', video: 'https://player.vimeo.com/video/1002083210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
+      { title: 'Cadência vs. Volume', video: 'https://player.vimeo.com/video/1002083210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
+      { title: 'Não deixe para "rastrear" só depois', video: 'https://player.vimeo.com/video/1002083210?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
     ],
     tasks: [
       { title: 'Install Node.js', completed: false },
