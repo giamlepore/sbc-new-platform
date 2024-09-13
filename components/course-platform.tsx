@@ -16,8 +16,8 @@ const modules = [
     lessons: [
       { title: 'Aula #001 → O que gostaria de saber antes? Parte 01', video: 'https://player.vimeo.com/video/1008575104?badge=0&amp;autopause=0&amp;player_id=0&amp' },
       { title: 'Aula #002 → O que gostaria de saber antes? Parte 02', video: 'https://player.vimeo.com/video/1008575201?badge=0&amp;autopause=0&amp;player_id=0&amp' },
-      { title: 'Extra: Ferramentas para começar', video: 'https://player.vimeo.com/video/1008577242?badge=0&amp;autopause=0&amp;player_id=0&amp' },
-      { title: 'Em breve', video: '' },
+      { title: 'EXTRA #001: Ferramentas para começar', video: 'https://player.vimeo.com/video/1008577242?badge=0&amp;autopause=0&amp;player_id=0&amp' },
+      { title: 'EXTRA #002: Criando um (belo) site em 26 minutos', video: 'https://player.vimeo.com/video/1009311054?badge=0&amp;autopause=0&amp' },
       { title: 'Em breve', video: '' },
       { title: 'Em breve', video: '' },
     ],
@@ -25,6 +25,7 @@ const modules = [
       { title: 'Escolha a ferramenta que você vai documentar seus aprendizados. (Coda, Notion, Trello, Asana são algumas possibilidades)', completed: false },
       { title: 'Defina quais ferramentas você vai utilizar repetidamente, aprofunde nelas (Framer, v0.dev, ChatGPT, Google Analytics, Google Search Console, Google Tag Manager, Clarity são algumas delas.', completed: false },
       { title: 'Reflita sobre "O que é um jogo pra você, e trabalho para os outros?"', completed: false },
+      { title: 'É mais rápido para você colocar algo no ar, ou fazer todas as entrevistas antes?"', completed: false },
     ]
   },
   {
